@@ -1,0 +1,44 @@
+[
+    {
+        "id": 0,
+        "name": "A metalic room", 
+        "desc": "You wake up in a strange metal room with 4 doors.",
+        "items": ["nan"],
+        "exits": { "north": 1, "south": 2, "east": 3, "west": 4 }
+    },
+    {
+        "id": 1,
+        "name": "Room with a Locked gate", 
+        "desc": "A simple room with a locked gate to the north, and 2 other doors beside the one you came from. \n The locked door has a green lock on it with a hole for a strange key",
+        "items": ["nan"],
+        "exits": { "north": 5, "south": 0, "east": 3, "west": 4 }
+    },
+    {
+        "id": 2,
+        "name": "The hammer room ", 
+        "desc": "You have entered a room with a hammer lying on the floor, it could be useful you should grab it",
+        "items": ["Hammer"],
+        "exits": { "north": 0, "east": 3, "west": 4 }
+    },
+    {
+        "id": 3,
+        "name": "An empty room ", 
+        "desc": "",
+        "items": ["Green Key"],
+        "exits": { "north": 1, "south": 2, "west": 0 }
+    },
+    {
+        "id": 4,
+        "name": "An empty room ", 
+        "desc": "",
+        "items": "Blue Key",
+        "exits": { "north": 1, "south": 2, "east": 0}
+    },
+    {
+        "id": 5,
+        "name": "Outside", 
+        "desc": "Congratulations You Have Made It Outside and Finished The Game",
+        "items": ["nan"],
+        "exits": { }
+    }
+]
